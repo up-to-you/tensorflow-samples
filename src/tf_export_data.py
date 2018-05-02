@@ -1,5 +1,6 @@
 import skimage.io as io
 import tensorflow as tf
+import numpy as np
 
 from keras.utils import np_utils
 
@@ -36,17 +37,24 @@ data_pairs = []
 for idx, subfold_class in enumerate(subfolders):
     images = io.imread_collection(DATA_DIR + '/' + subfold_class + '/*.jpg')
     for img in images:
+        img = np.array(img)
         data_pairs.append((img, idx))
 
 writer = tf.python_io.TFRecordWriter(TARGET_TF_RECORD)
 
 for img, clazz in data_pairs:
+    height = img.shape[0]
+    width = img.shape[1]
+
     feature = {
+        'height': _int64_feature(height),
+        'width': _int64_feature(width),
         'image': _bytes_feature(tf.compat.as_bytes(img.tostring())),
         'clazz': _int64_feature(clazz)
     }
     example = tf.train.Example(features=tf.train.Features(feature=feature))
     writer.write(example.SerializeToString())
+    print('wrote clazz : ' + str(clazz))
 
 writer.flush()
 writer.close()
