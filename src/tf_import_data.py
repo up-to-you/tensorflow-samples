@@ -1,4 +1,5 @@
 import skimage.io as io
+from skimage.transform import resize
 import tensorflow as tf
 import numpy as np
 
@@ -23,6 +24,9 @@ for string_record in record_iterator:
     img_1d = np.fromstring(img_string, dtype=np.uint8)
     img = img_1d.reshape((height, width, -1))
 
-    io.imshow(img)
-    io.show()
+    rs_img = resize(img, (32, 32, 3))
 
+    print(clazz)
+
+    io.imshow(rs_img)
+    io.show()
