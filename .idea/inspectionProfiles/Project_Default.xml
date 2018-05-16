@@ -1,0 +1,18 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="src.time_series.hidden_dim" />
+          <option value="src.time_series.input_dim" />
+          <option value="src.time_series.seq_length" />
+          <option value="src.time_series.layers_stacked_count" />
+          <option value="src.time_series.tf" />
+          <option value="src.time_series.output_dim" />
+          <option value="src.time_series.enc_inp" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
