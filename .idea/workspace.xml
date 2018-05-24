@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b779b35c-30f1-4880-a1d0-ec931250a8bf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/timeseries/time_series_vis_loss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timeseries/time_series_vis_predictions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timeseries/time_series_vis_predictions_noise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/text/20news_groups_sample.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tf_export_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tfrecord/tf_export_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tf_export_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/snapshot/tf_export_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tf_import_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tfrecord/tf_import_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tf_import_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/snapshot/tf_import_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tf_train_tfrecord.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tfrecord/tf_train_tfrecord.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +24,98 @@
     <SUITE FILE_PATH="coverage/tensorflow_samples$tf_train_tfrecord.coverage" NAME="tf_train_tfrecord Coverage Results" MODIFIED="1525361311733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="tf_train_tfrecord.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tfrecord/tf_train_tfrecord.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1920">
+              <caret line="123" selection-start-line="123" selection-end-line="123" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cifar_10.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cifar_10.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mnist.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mnist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mnist_fully_connected.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mnist_fully_connected.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tf_export_model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/snapshot/tf_export_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1136">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tf_import_model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/snapshot/tf_import_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20news_groups_sample.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/text/20news_groups_sample.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tf_import_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tfrecord/tf_import_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tf_export_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tfrecord/tf_export_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,15 +126,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>1024</find>
-      <find>)</find>
-      <find>images</find>
-      <find>enc_inp</find>
-      <find>input_dim</find>
-      <find>dec_out</find>
-      <find>lambda_l2_reg</find>
-      <find>expected_</find>
-      <find>nb_iters</find>
       <find>seq2seq</find>
       <find>plt</find>
       <find>train_losses</find>
@@ -62,6 +147,15 @@
       <find>noise_amount</find>
       <find>batch_size</find>
       <find>12,3</find>
+      <find>eval</find>
+      <find>categories</find>
+      <find>layer_1_addition</find>
+      <find>layer_2_multiplication</find>
+      <find>n_classes</find>
+      <find>(1,3)</find>
+      <find>output_tensor</find>
+      <find>3</find>
+      <find>4</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -93,6 +187,11 @@
         <option value="$PROJECT_DIR$/src/timeseries/time_series_vis_predictions_noise.py" />
         <option value="$PROJECT_DIR$/src/timeseries/time_series_vis_loss.py" />
         <option value="$PROJECT_DIR$/src/timeseries/time_series_vis_predictions.py" />
+        <option value="$PROJECT_DIR$/src/tfrecord/tf_export_data.py" />
+        <option value="$PROJECT_DIR$/src/tfrecord/tf_import_data.py" />
+        <option value="$PROJECT_DIR$/src/tfrecord/tf_train_tfrecord.py" />
+        <option value="$PROJECT_DIR$/src/text/text_preprocessing.py" />
+        <option value="$PROJECT_DIR$/src/text/20news_groups_sample.py" />
       </list>
     </option>
   </component>
@@ -119,8 +218,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -138,12 +235,14 @@
               <item name="tensorflow-samples" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensorflow-samples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="timeseries" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,10 +251,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/snapshot" />
+      <recent name="$PROJECT_DIR$/src/tfrecord" />
       <recent name="$PROJECT_DIR$/src/timeseries" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -172,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.time_series_vis_predictions">
+  <component name="RunManager" selected="Python.20news_groups_sample">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -195,6 +296,25 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="20news_groups_sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow-samples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/text" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/text/20news_groups_sample.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="tensorflow-samples" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,25 +334,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="tf_export_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tensorflow-samples" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tf_export_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="tf_import_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow-samples" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,7 +347,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tf_import_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tfrecord/tf_import_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,7 +366,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tf_train_tfrecord.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tfrecord/tf_train_tfrecord.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -318,18 +419,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.tf_train_tfrecord" />
-      <item itemvalue="Python.tf_export_data" />
       <item itemvalue="Python.tf_import_data" />
       <item itemvalue="Python.time_series" />
       <item itemvalue="Python.time_series_vis_predictions" />
+      <item itemvalue="Python.20news_groups_sample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.20news_groups_sample" />
+        <item itemvalue="Python.tf_train_tfrecord" />
         <item itemvalue="Python.time_series_vis_predictions" />
         <item itemvalue="Python.time_series" />
-        <item itemvalue="Python.tf_train_tfrecord" />
         <item itemvalue="Python.tf_import_data" />
-        <item itemvalue="Python.tf_export_data" />
       </list>
     </recent_temporary>
   </component>
@@ -353,14 +454,22 @@
       <workItem from="1526371497887" duration="2213000" />
       <workItem from="1526373980893" duration="9626000" />
       <workItem from="1526418058116" duration="40000" />
+      <workItem from="1526677838701" duration="44000" />
+      <workItem from="1526677894554" duration="35000" />
+      <workItem from="1526985660394" duration="387000" />
+      <workItem from="1527149303077" duration="755000" />
+      <workItem from="1527150076171" duration="2732000" />
+      <workItem from="1527154394021" duration="238000" />
+      <workItem from="1527163828479" duration="1641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34997000" />
+    <option name="totallyTimeSpent" value="40829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -371,12 +480,13 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3296875" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49951598" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.33830845" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21614583" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.215625" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.16458334" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.27760416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -386,7 +496,6 @@
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49951598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" x="0" y="0" width="430" height="884" id="Documentation" order="3" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -469,118 +578,122 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tf_import_data.py">
+    <entry file="file://$PROJECT_DIR$/src/tfrecord/tf_train_tfrecord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1712">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tfrecord/tf_import_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_train_tfrecord.py">
+    <entry file="file://$PROJECT_DIR$/src/tfrecord/tf_train_tfrecord.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_export_model.py">
+    <entry file="file://$PROJECT_DIR$/src/snapshot/tf_export_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1968">
           <caret line="127" column="26" lean-forward="true" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_export_data.py">
+    <entry file="file://$PROJECT_DIR$/src/tfrecord/tf_export_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="22" column="55" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_import_data.py">
+    <entry file="file://$PROJECT_DIR$/src/tfrecord/tf_import_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_train_tfrecord.py">
+    <entry file="file://$PROJECT_DIR$/src/tfrecord/tf_train_tfrecord.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_export_model.py">
+    <entry file="file://$PROJECT_DIR$/src/snapshot/tf_export_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2032">
           <caret line="131" column="28" lean-forward="true" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_export_data.py">
+    <entry file="file://$PROJECT_DIR$/src/tfrecord/tf_export_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_import_model.py">
+    <entry file="file://$PROJECT_DIR$/src/snapshot/tf_import_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1584">
           <caret line="102" selection-start-line="102" selection-end-line="102" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_export_model.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_import_data.py">
+    <entry file="file://$PROJECT_DIR$/src/tfrecord/tf_import_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_export_data.py">
+    <entry file="file://$PROJECT_DIR$/src/tfrecord/tf_export_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_import_model.py">
+    <entry file="file://$PROJECT_DIR$/src/snapshot/tf_import_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1584">
           <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_export_model.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_import_data.py">
+    <entry file="file://$PROJECT_DIR$/src/tfrecord/tf_import_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_export_data.py">
+    <entry file="file://$PROJECT_DIR$/src/tfrecord/tf_export_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_export_model.py">
+    <entry file="file://$PROJECT_DIR$/src/snapshot/tf_export_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_import_model.py">
+    <entry file="file://$PROJECT_DIR$/src/snapshot/tf_import_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
@@ -601,21 +714,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_export_data.py">
+    <entry file="file://$PROJECT_DIR$/src/tfrecord/tf_export_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="752">
           <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_export_model.py">
+    <entry file="file://$PROJECT_DIR$/src/snapshot/tf_export_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_import_model.py">
+    <entry file="file://$PROJECT_DIR$/src/snapshot/tf_import_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
@@ -643,31 +756,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cifar_10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.IntelliJIdea2018.1/system/python_stubs/-1247971763/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="324" column="4" selection-start-line="324" selection-start-column="4" selection-end-line="324" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mnist_fully_connected.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -720,13 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_import_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="976">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python3.6/dist-packages/tensorflow/core/example/feature_pb2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -748,41 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_train_tfrecord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_export_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_import_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tf_export_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="127" column="26" lean-forward="true" selection-start-line="127" selection-end-line="127" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/pydev_run_in_console.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -801,9 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -811,9 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="99" column="14" lean-forward="true" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,8 +865,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
           <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cifar_10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tfrecord/tf_export_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tfrecord/tf_import_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tfrecord/tf_train_tfrecord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mnist_fully_connected.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snapshot/tf_export_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1136">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snapshot/tf_import_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/pydev_run_in_console.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/text/20news_groups_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

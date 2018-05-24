@@ -36,7 +36,7 @@ def full_layer(input, size):
 
 
 def read_all_images():
-    record_iterator = tf.python_io.tf_record_iterator(path='/home/owner/target.tfrecords')
+    record_iterator = tf.python_io.tf_record_iterator(path='/home/owner/target.tfrecord')
     imgs = []
     categories = []
     for string_record in record_iterator:

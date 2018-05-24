@@ -3,7 +3,7 @@ from skimage.transform import resize
 import tensorflow as tf
 import numpy as np
 
-TARGET_TF_RECORD = '/home/owner/target.tfrecords'
+TARGET_TF_RECORD = '/home/owner/target.tfrecord'
 
 reconstructed_images = []
 

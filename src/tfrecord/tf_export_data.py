@@ -7,7 +7,7 @@ from keras.utils import np_utils
 import os
 
 DATA_DIR = '/home/owner/NN_DATA/101_ObjectCategories'
-TARGET_TF_RECORD = '/home/owner/target.tfrecords'
+TARGET_TF_RECORD = '/home/owner/target.tfrecord'
 
 
 def get_subdirs_sorted():
